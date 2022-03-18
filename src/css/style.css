@@ -21,7 +21,7 @@ main{
     display: flex;
 }
 
-section{
+.perfil,.content-intro,header{
     background-color: var(--background-styles);
 }
 .perfil{
@@ -48,7 +48,6 @@ color: var(--color-tittle);
 }
 
 table{
-    margin: 1rem 0;
     width: 90%;
    }
 
@@ -64,9 +63,6 @@ td{
 
 .skills{
     width: 90%;
-    border-top: 2px solid var(--color-border-button);
-    margin-bottom: 1rem;
-    padding-top: 1rem;
 }
 
 .my-skills{
@@ -89,8 +85,33 @@ td{
 
 }
 
-.en{
+.skill-en{
     width: 10%;
+}
+
+.skill-html{
+    width: 30%;
+}
+
+.skill-css{
+    width: 20%;
+}
+
+.skill-js{
+    width: 0%;
+}
+
+.extra-skills{
+    width: 90%;
+}
+
+.es{
+    display: flex;
+    align-items: baseline ;
+}
+
+.es img{
+    margin-right: 15px;
 }
 
 .info{
@@ -100,7 +121,6 @@ text-align: left;
 }
 
 .rede-social{
-    border-bottom: 2px solid var(--color-border-button);
     width: 90%;
     display: flex;
     justify-content: center;
@@ -112,17 +132,19 @@ text-align: left;
     background-color: var(--color-button);   
     padding: 5px;
     border-radius: 50%;
-    margin: 1rem 5px;
+}
+
+.separate-line{
+    border-top:1px solid var(--color-border-button);
+    margin-top: 2rem;
+    padding-top: 2rem;
+    width: 90%;
 }
 
 .content{
-    padding: 10px 50px 0 50px;
+    padding: 0px 50px;
     width: 60%;
-    height: 10%;
     margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-
 }
 
 .intro{
@@ -135,23 +157,40 @@ text-align: left;
     margin-top: 20px;
 }
 
-.content img{
+.content-intro img{
     width: 300px;
     height: 400px;
-
 }
 
 .content button{
-color: var(--color-title);
-border-radius: 5px;
-background: var(--color-button);
-display: flex;
-align-items: center;
-padding: 10px 20px;
-margin-top: 36px;
+    color: var(--color-title);
+    border-radius: 5px;
+    background: var(--color-button);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 36px;
 }
 
-.content div img{
+.cv{
+    color: var(--color-title);
+    background: var(--color-button);
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    margin: auto;
+    justify-content: center;
+}
+
+.cv img{
+    margin-left: 10px;
+}
+.content-intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 3rem 0 3rem;
+} 
+.intro img{
     width: 16px;
     height: 16px;
     padding-left: 5px;

@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -19,15 +19,15 @@
 <body>
     <main>
         <section class="perfil">
-            <img class="persona" src="senior.png" alt="foto perfil">
+            <img class="persona" src="./src/public/senior.png" alt="foto perfil">
             <h3>Hiago Meneses</h3>
             <p>Front-End developer</p>
             <div class="rede-social">
-                <img src="git.png" alt="github logo">
-                <img src="linkedin.svg" alt="linkedin logo">
+                <img src="./src/public/git.png" alt="github logo">
+                <img src="./src/public/linkedin.svg" alt="linkedin logo">
             </div>
 
-            <table>
+            <table class="separate-line">
                 <tr>
                     <td class="info">Age:</td>
                     <td>17</td>
@@ -45,7 +45,8 @@
                     <td>CG-MS, Brazil</td>
                 </tr>
             </table>
-            <div class="skills">
+
+            <div class="skills separate-line">
                 <h3>Languages</h3>
                 <div class="my-skills">
                     <p>Portuguese</p>
@@ -56,46 +57,78 @@
                     </div>
                 </div>
                 <div class="my-skills">
-               <p>English</p>
+                    <p>English</p>
                     <p>10%</p>
                 </div>
                 <div class="my-bar">
-                    <div class="my-progress en">
+                    <div class="my-progress skill-en">
                     </div>
                 </div>
             </div>
-            <div class="skills">
+
+            <div class="skills separate-line">
                 <h3>Skills</h3>
                 <div class="my-skills">
                     <p>HTML 5</p>
-                    <p>100%</p>
+                    <p>30%</p>
                 </div>
                 <div class="my-bar">
-                    <div class="my-progress">
+                    <div class="my-progress skill-html">
                     </div>
                 </div>
                 <div class="my-skills">
                     <p>CSS</p>
-                    <p>10%</p>
+                    <p>20%</p>
                 </div>
                 <div class="my-bar">
-                    <div class="my-progress en">
+                    <div class="my-progress skill-css">
                     </div>
                 </div>
+                <div class="my-skills">
+                    <p>JAVASCRIPT</p>
+                    <p>0%</p>
+                </div>
+                <div class="my-bar">
+                    <div class="my-progress skill-js"></div>
+                </div>
             </div>
+
+            <div class="extra-skills separate-line">
+                <h3>Extra Skills</h3>
+                <div class="es">
+                    <img src="./src/public/Icons.svg" alt="icon">
+                    <p>Bootstrap</p>
+                </div>
+                <div class="es">
+                    <img src="./src/public/Icons.svg" alt="icon">
+                    <p>GITHUB</p>
+                </div>
+                <div class="es">
+                    <img src="./src/public/Icons.svg" alt="icon">
+                    <p>Figma</p>
+                </div>
+            </div>
+            <div class="separate-line">
+
+            <button class="cv">DOWLOAD CV <img src="./src/public/Frame.svg" alt="dowload"></button>
+             </div>
         </section>
         <section class="content">
-            <div class="intro">
+            <div class="content-intro">
+                <div class="intro">
+                    <h1>I'm Hiago Meneses <span><br>Front-end</span> Developer</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nisi eum, enim quidem consequuntur
+                        ea
+                        commodi reprehenderit omnis neque quaerat veritatis nemo ullam ab vitae minima, quasi, at eius
+                        impedit.
+                    </p>
+                    <button>HIRE ME <img src="./src/public/seta.png" alt="seta"></button>
+                </div>
 
-                <h1>I'm Hiago Meneses <span><br>Front-end</span> Developer</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nisi eum, enim quidem consequuntur ea
-                    commodi reprehenderit omnis neque quaerat veritatis nemo ullam ab vitae minima, quasi, at eius
-                    impedit.
-                </p>
-                <button>HIRE ME <img src="seta.png" alt="seta"></button>
+                <img src="./src/public/senior.png" alt="foto">
             </div>
+            <section class="services"></section>
 
-            <img src="senior.png" alt="">
 
         </section>
         <header class="menu">
