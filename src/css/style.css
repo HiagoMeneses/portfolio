@@ -221,6 +221,37 @@ aside{
     padding: 0 16px 8px;
 }
 
+.education{
+    background: var(--background-styles);
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 95%;
+
+}
+
+.course{
+    display: flex;
+    justify-content: space-between; 
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.course strong{
+    background-color: var(--color-icons);
+    color: white;
+    padding: 4px 10px;
+    margin-left: 1rem;
+}
+
+.course div p{
+    color: var(--color-title);
+}
+
+.course section{
+    width: 60%;
+
+}
+
 #rating{
     width: 130px;
     margin-left: 0;
