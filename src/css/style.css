@@ -5,8 +5,11 @@
     --color-button: #ffae00;
     --background-styles: #ffffff;
     --color-border-button: #dbdbdb;
-
+    --background: rgb(233, 233, 255);
+   
 }
+
+
 
 *{
     margin: 0;
@@ -17,7 +20,7 @@
 }
 
 main{
-    background: rgb(233, 233, 255);
+    background: var(--background);
     display: flex;
 }
 
@@ -207,6 +210,7 @@ text-align: left;
     text-align: center;
     width: 50%;
     margin: auto;
+    color: var(--color-title) ;
 }
 
 .aside{
@@ -385,6 +389,16 @@ aside img{
     text-align: center;
     margin: 2rem 0 3rem ;
     padding: 8px;
+    background-color: var(--background-styles);
+    cursor: pointer;
+}
+
+.sun{
+   background-color: url("http://192.168.100.31:5500/src/public/sun.svg");
+    width:50px;
+    padding:1px;
+    background:white;
+    border-radius:50%;
 }
 
 nav{
