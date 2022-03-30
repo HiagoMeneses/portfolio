@@ -387,15 +387,15 @@ aside img{
 
 .moon{
     text-align: center;
-    margin: 2rem 0 3rem ;
-    padding: 8px;
+    margin: 2.5rem 0 3rem ;
+    padding: 16px;
     background-color: var(--background-styles);
     cursor: pointer;
 }
 
 .sun{
    background-color: url("http://192.168.100.31:5500/src/public/sun.svg");
-    width:50px;
+    width:30px;
     padding:1px;
     background:white;
     border-radius:50%;
