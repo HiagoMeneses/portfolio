@@ -394,7 +394,7 @@ aside img{
 }
 
 .sun{
-   background-color: url("http://192.168.100.31:5500/src/public/sun.svg");
+   background-color: url("./src/public/sun.svg");
     width:30px;
     padding:1px;
     background:white;
