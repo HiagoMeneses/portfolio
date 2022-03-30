@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio desenvolvedor front-end">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -117,7 +118,7 @@
                 <button class="cv">DOWLOAD CV <img src="./src/public/Frame.svg" alt="dowload"></button>
             </div>
         </section>
-        <section class="content">
+        <section id="home" class="content">
             <div class="content-intro">
                 <div class="intro">
                     <h1>I'm Hiago Meneses <span><br>Front-end</span> Developer</h1>
@@ -131,7 +132,7 @@
 
                 <img src="./src/public/senior.png" alt="foto">
             </div>
-            <section class="conteiner">
+            <section id="services" class="conteiner">
                 <div class="description">
                     <h2>My Services</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit debitis culpa ad corrupti
@@ -154,7 +155,7 @@
                 </div>
             </section>
 
-            <section class="conteiner">
+            <section id="recommendation" class="conteiner">
                 <div class="description">
                     <h2>Recommendations</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit debitis culpa ad corrupti
@@ -192,7 +193,7 @@
                 </div>
             </section>
 
-            <section class="conteiner">
+            <section id="education" class="conteiner">
                 <div class="description">
                     <h2>Education</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit debitis culpa ad corrupti
@@ -247,7 +248,7 @@
                 </aside>
             </section>
 
-            <section class="conteiner">
+            <section id="work" class="conteiner">
                 <div class="description">
                     <h2>Work history</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit debitis culpa ad corrupti
@@ -276,7 +277,7 @@
 
             </section>
 
-            <section class="conteiner">
+            <section id="Portfólio" class="conteiner">
                 <div class="description">
                     <h2>Portfólio</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit debitis culpa ad corrupti
@@ -286,12 +287,12 @@
                 </div>
                 <div class="aside">
                     <aside class="portfolio">
-                        <img class="templates" src="src/public/portifolio.png" alt="">
+                        <img class="templates" src="src/public/portfolio.jpg" alt="">
                     </aside>
                 </div>
             </section>
 
-            <section class="information">
+            <section id="contact" class="information">
                 <div class="your-info">
                     <h3>Leave Us Your Info</h3>
                     <form action="">
@@ -299,12 +300,12 @@
                             Your Full Name (Required)
                             <input type="text" required>
                         </label>
-                       
+
                         <label for="">
                             Your Email (Required)
                             <input type="email" required>
                         </label>
-                        
+
                         <label for="">
                             Subject
                             <input type="text">
@@ -315,9 +316,9 @@
                             <textarea name="mensagem" id="" cols="30" rows="10"></textarea>
                         </label>
                         <button class="send-message">SEND MESSAGE</button>
-                    
+
                     </form>
-                    
+
                 </div>
                 <div class="contact">
                     <h3>Contact Info</h3>
@@ -334,7 +335,7 @@
                             <td class="info">Streat:</td>
                             <td>***</td>
                         </tr>
-            
+
                     </table>
 
                     <table class="list-info">
@@ -377,13 +378,19 @@
 
         </section>
         <header class="menu">
+          
+            <div class="moon">
+                <img src="./src/public/Vector.svg" alt="">
+            </div>
+          
             <nav>
                 <ul>
-                    <li>Home</li>
-                    <li>Serviços</li>
-                    <li>Home</li>
-                    <li> <a href="/src/pages/html.html">Estudo</a> </li>
-
+                    <li><a href="#home"><img src="./src/public/Home.svg" alt="home page"></a></li>
+                    <li><a href="#services"><img src="./src/public/Services.svg" alt="services section"></a></li>
+                    <li><a href="#education"><img src="./src/public/cv.svg" alt=""></a></li>
+                    <li><a href="#work"><img src="./src/public/Portfolio.svg" alt=""></a></li>
+                    <li><a href="#Portfólio"><img src="./src/public/Blog.svg" alt="Portfolio section"></a></li>
+                    <li><a href="#contact"><img src="./src/public/Contact.svg" alt="contact section"></a></li>
                 </ul>
             </nav>
         </header>
