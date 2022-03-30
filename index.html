@@ -379,8 +379,8 @@
         </section>
         <header class="menu">
           
-            <div class="moon">
-                <img src="./src/public/Vector.svg" alt="">
+            <div onclick="alterTheme()" class="moon">
+                <img class="moon-img"   src="./src/public/Vector.svg" alt="">
             </div>
           
             <nav>
@@ -399,5 +399,23 @@
 
 
 </body>
-
+<script>
+function alterTheme(){
+    const value = getComputedStyle(document.body).getPropertyValue('--color-title')
+    if(`${value}`==="#ffffff"){
+        document.location.reload(true)
+    }
+    document.body.style.setProperty('--color-title','#ffffff')
+    document.body.style.setProperty('--color-text','#c0bebe')
+    document.body.style.setProperty('--color-icons','#ffb80d')
+    document.body.style.setProperty('--color-button','#ffae00')
+    document.body.style.setProperty('--background-styles','#000000')
+    document.body.style.setProperty('--color-border-button','#dbdbdb')
+    document.body.style.setProperty('--background',' rgb(68, 68, 68)')
+    document.querySelector(".moon-img").src="http://192.168.100.31:5500/src/public/sun.svg"
+    document.querySelector(".moon-img").classList.add("sun")
+    document.body.style.setProperty("color",'wite')
+    
+}
+</script>
 </html>
